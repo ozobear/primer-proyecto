@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    font-family: Avenir;
+}
+
+header {
+    height: 150px;
+    text-align: center;
+    background-color: royalblue;
+}
+
+.skills {
+    background-color: steelblue;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    margin: 5px
+}
