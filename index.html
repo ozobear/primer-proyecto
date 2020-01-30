@@ -4,45 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Práctica 2</title>
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <header>
-                <nav class="nav justify-content-center">
-                    <a class="nav-link active" href="#">Active</a>
-                    <a class="nav-link" href="#">Link</a>
-                    <a class="nav-link" href="#">Link</a>
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </nav>
-                <h1 class="text-center">Sesión 2 HTML + CSS</h1>
-            </header>
-            <main>
-                <div class="row introduction">
-                    <h1>Esta es una introducción</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ex officia quos corporis consectetur eligendi corrupti accusamus quasi, recusandae, placeat ipsam aliquam cupiditate quis ipsum provident pariatur unde quia! Dolores.</p>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Oscar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><span>
+                </button>  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                          </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
                 </div>
-                <div class="skills">
-                    <div class="row columns">
-                        <div class="col">
-                            <h3>HTML</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quod reiciendis cum? Quae illo quasi repellat adipisci officiis et necessitatibus rerum odio qui, id omnis impedit perspiciatis obcaecati saepe reprehenderit!</p>
-                        </div>
-                        <div class="col">
-                            <h3>CSS</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi adipisci praesentium, vero ullam quibusdam voluptatem culpa deserunt, ea harum explicabo quasi atque! Distinctio voluptatum ab deserunt impedit autem quis. Laboriosam.</p>
-                        </div>
-                        <div class="col">
-                            <h3>JS</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque optio nulla, magnam quis labore impedit quam veritatis repellendus ratione recusandae. A recusandae veritatis modi quidem iste sed! Voluptatibus, iusto qui?</p>
-                        </div>
+            </nav>
+        </header>
+        <main>
+            <h1 class="text-center">Sesión 2 HTML + CSS</h1>
+            <div class="row introduction">
+                <h1>Esta es una introducción</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ex officia quos corporis consectetur eligendi corrupti accusamus quasi, recusandae, placeat ipsam aliquam cupiditate quis ipsum provident pariatur unde quia! Dolores.</p>
+            </div>
+            <div class="skills">
+                <div class="row columns">
+                    <div class="col">
+                        <h3>HTML</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quod reiciendis cum? Quae illo quasi repellat adipisci officiis et necessitatibus rerum odio qui, id omnis impedit perspiciatis obcaecati saepe reprehenderit!</p>
+                    </div>
+                    <div class="col">
+                        <h3>CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi adipisci praesentium, vero ullam quibusdam voluptatem culpa deserunt, ea harum explicabo quasi atque! Distinctio voluptatum ab deserunt impedit autem quis. Laboriosam.</p>
+                    </div>
+                    <div class="col">
+                        <h3>JS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque optio nulla, magnam quis labore impedit quam veritatis repellendus ratione recusandae. A recusandae veritatis modi quidem iste sed! Voluptatibus, iusto qui?</p>
                     </div>
                 </div>
-            </main>
-        </div>
+            </div>
+        </main>
     </div>
 </body>
 </html>
